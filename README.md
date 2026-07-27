@@ -164,13 +164,13 @@ If the command executes successfully, no additional configuration is required.
 
 The platform can invoke PsSuspend through the system PATH.
 
-INSTALLATION
+---------------------------------------- INSTALLATION ------------------------------
 
 Backend
 
 Navigate to:
 
-backend/
+(root folder)/
 
 Create Virtual Environment:
 
@@ -178,7 +178,7 @@ py -3.12 -m venv venv
 
 Activate:
 
-venv\Scripts\activate
+backend\venv\Scripts\activate
 
 Install Dependencies:
 
@@ -186,11 +186,11 @@ pip install -r requirements.txt
 
 Run Backend:
 
-python main.py
+python -m backend.main
 
 Frontend
 
-Navigate to:
+Second terminal Navigate to:
 
 frontend/
 
